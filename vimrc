@@ -17,6 +17,9 @@ filetype plugin indent on
 " NERDTree keymapping
 map <F5> :NERDTreeToggle<CR>
 
+" Hide buffer instead of closing.
+set hidden
+
 " Color theme and syntax highlighting based on file
 set background=dark
 colorscheme Tomorrow-Night
@@ -36,8 +39,8 @@ set history=100
 
 "Indent logic
 set nowrap
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set smartindent
 set autoindent
@@ -49,10 +52,10 @@ set hlsearch
 set showmatch
 
 if &term =~ '256color'
-      " disable Background Color Erase (BCE) so that color schemes
-      " render properly when inside 256-color tmux and GNU screen.
-      " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
-    set t_ut=
+  " disable Background Color Erase (BCE) so that color schemes
+  " render properly when inside 256-color tmux and GNU screen.
+  " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
+  set t_ut=
 endif
 
 " Use visual bell instead of beeping.
