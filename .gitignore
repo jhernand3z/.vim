@@ -1,2 +1,4 @@
 .vimrc.swp
 *.swp
+bundle/*
+!bundle/Vundle.vim/*
