@@ -35,7 +35,7 @@ set colorcolumn=100
 set number
 
 "Increase history
-set history=100
+set history=1000
 
 "Indent logic
 set nowrap
