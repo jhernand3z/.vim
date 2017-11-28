@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Add more plugins
 Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree.git'
+Plugin 'airblade/vim-gitgutter.git'
 
 call vundle#end()
 filetype plugin indent on
