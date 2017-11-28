@@ -30,7 +30,7 @@ syntax on
 set guifont=Menlo\ Reguluar:h18
 
 " Color column for right side
-set colorcolumn=100
+set colorcolumn=80
 
 "Add line numbering
 set number
